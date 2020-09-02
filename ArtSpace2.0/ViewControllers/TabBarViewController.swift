@@ -6,4 +6,19 @@
 //  Copyright © 2020 Kary Martinez. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class NavigationTabBarViewController: UITabBarController {
+
+
+ lazy var firstViewController = UINavigationController(rootViewController: FeedViewController())
+ 
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        firstViewController.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "house.fill"), tag: 0)
+   
+    }
+
+}
