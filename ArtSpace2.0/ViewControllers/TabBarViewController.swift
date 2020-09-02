@@ -18,7 +18,7 @@ class NavigationTabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         firstViewController.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "house.fill"), tag: 0)
-   
+        self.viewControllers = [firstViewController]
     }
 
 }
