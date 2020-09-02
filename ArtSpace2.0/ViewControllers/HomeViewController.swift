@@ -6,4 +6,19 @@
 //  Copyright © 2020 Kary Martinez. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class FeedViewController: UIViewController {
+   
+    
+
+  override func viewDidLoad() {
+       super.viewDidLoad()
+       view.backgroundColor = .white
+    
+   }
+
+  
+  
+    
+}
