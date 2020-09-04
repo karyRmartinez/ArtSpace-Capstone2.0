@@ -42,7 +42,7 @@
 		6B4D820F25003F5000B1DCF4 = {
 			isa = PBXGroup;
 			children = (
-				977BD02F2501C65C00606718 /* ArtSpace */,
+				977BD02F2501C65C00606718 /* ArtSpace2.0 */,
 				6B4D821B25003F5000B1DCF4 /* AppDelegate.swift */,
 				6B4D821D25003F5000B1DCF4 /* SceneDelegate.swift */,
 				6B4D821925003F5000B1DCF4 /* Products */,
@@ -71,12 +71,12 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		977BD02F2501C65C00606718 /* ArtSpace */ = {
+		977BD02F2501C65C00606718 /* ArtSpace2.0 */ = {
 			isa = PBXGroup;
 			children = (
 				6B4D822F2500470800B1DCF4 /* ViewControllers */,
 			);
-			path = ArtSpace;
+			path = ArtSpace2.0;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
