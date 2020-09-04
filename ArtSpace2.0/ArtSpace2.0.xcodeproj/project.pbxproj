@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2781B69DC415BBFC6CDCC3E5 /* Pods_ArtSpace2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62508AB1EE09C6CCD90E64E /* Pods_ArtSpace2_0.framework */; };
 		6B4D821C25003F5000B1DCF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D821B25003F5000B1DCF4 /* AppDelegate.swift */; };
 		6B4D821E25003F5000B1DCF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D821D25003F5000B1DCF4 /* SceneDelegate.swift */; };
 		6B4D822025003F5000B1DCF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D821F25003F5000B1DCF4 /* ViewController.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42D08E62913D406F326C8014 /* Pods-ArtSpace2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpace2.0.debug.xcconfig"; path = "Target Support Files/Pods-ArtSpace2.0/Pods-ArtSpace2.0.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4D821825003F5000B1DCF4 /* ArtSpace2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtSpace2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4D821B25003F5000B1DCF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B4D821D25003F5000B1DCF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,8 +26,6 @@
 		6B4D822925003F5200B1DCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B4D82302500472800B1DCF4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6B4D82322500475000B1DCF4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		B4CD2D9C14A46BB793F81D62 /* Pods-ArtSpace2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpace2.0.release.xcconfig"; path = "Target Support Files/Pods-ArtSpace2.0/Pods-ArtSpace2.0.release.xcconfig"; sourceTree = "<group>"; };
-		F62508AB1EE09C6CCD90E64E /* Pods_ArtSpace2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtSpace2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2781B69DC415BBFC6CDCC3E5 /* Pods_ArtSpace2_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,11 +42,9 @@
 		6B4D820F25003F5000B1DCF4 = {
 			isa = PBXGroup;
 			children = (
+				977BD02F2501C65C00606718 /* ArtSpace */,
 				6B4D821B25003F5000B1DCF4 /* AppDelegate.swift */,
 				6B4D821D25003F5000B1DCF4 /* SceneDelegate.swift */,
-				6B4D822F2500470800B1DCF4 /* ViewControllers */,
-				ECB4F8290516EFE0A1902BCE /* Pods */,
-				D68BC3817B85F6EE037F87A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,21 +71,12 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		D68BC3817B85F6EE037F87A3 /* Frameworks */ = {
+		977BD02F2501C65C00606718 /* ArtSpace */ = {
 			isa = PBXGroup;
 			children = (
-				F62508AB1EE09C6CCD90E64E /* Pods_ArtSpace2_0.framework */,
+				6B4D822F2500470800B1DCF4 /* ViewControllers */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		ECB4F8290516EFE0A1902BCE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				42D08E62913D406F326C8014 /* Pods-ArtSpace2.0.debug.xcconfig */,
-				B4CD2D9C14A46BB793F81D62 /* Pods-ArtSpace2.0.release.xcconfig */,
-			);
-			path = Pods;
+			path = ArtSpace;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +313,6 @@
 		};
 		6B4D822D25003F5200B1DCF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42D08E62913D406F326C8014 /* Pods-ArtSpace2.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -347,7 +330,6 @@
 		};
 		6B4D822E25003F5200B1DCF4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4CD2D9C14A46BB793F81D62 /* Pods-ArtSpace2.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
