@@ -6,5 +6,7 @@ target 'ArtSpace2.0' do
   use_frameworks!
 
   # Pods for ArtSpace2.0
+pod 'Firebase/Auth'
+pod 'Firebase/Firestore'
 
 end
