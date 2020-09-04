@@ -45,6 +45,7 @@
 				977BD02F2501C65C00606718 /* ArtSpace */,
 				6B4D821B25003F5000B1DCF4 /* AppDelegate.swift */,
 				6B4D821D25003F5000B1DCF4 /* SceneDelegate.swift */,
+				6B4D821925003F5000B1DCF4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,7 +55,7 @@
 				6B4D821825003F5000B1DCF4 /* ArtSpace2.0.app */,
 			);
 			name = Products;
-			path = ..;
+			path = ArtSpace;
 			sourceTree = "<group>";
 		};
 		6B4D822F2500470800B1DCF4 /* ViewControllers */ = {
@@ -66,7 +67,6 @@
 				6B4D822425003F5200B1DCF4 /* Assets.xcassets */,
 				6B4D822625003F5200B1DCF4 /* LaunchScreen.storyboard */,
 				6B4D822925003F5200B1DCF4 /* Info.plist */,
-				6B4D821925003F5000B1DCF4 /* Products */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
