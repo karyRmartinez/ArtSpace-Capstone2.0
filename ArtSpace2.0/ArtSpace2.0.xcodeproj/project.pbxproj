@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2781B69DC415BBFC6CDCC3E5 /* Pods_ArtSpace2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62508AB1EE09C6CCD90E64E /* Pods_ArtSpace2_0.framework */; };
+		6B2D6AF12501B2700067241B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D6AF02501B2700067241B /* GoogleService-Info.plist */; };
 		6B4D821C25003F5000B1DCF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D821B25003F5000B1DCF4 /* AppDelegate.swift */; };
 		6B4D821E25003F5000B1DCF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D821D25003F5000B1DCF4 /* SceneDelegate.swift */; };
 		6B4D822025003F5000B1DCF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D821F25003F5000B1DCF4 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		42D08E62913D406F326C8014 /* Pods-ArtSpace2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpace2.0.debug.xcconfig"; path = "Target Support Files/Pods-ArtSpace2.0/Pods-ArtSpace2.0.debug.xcconfig"; sourceTree = "<group>"; };
+		6B2D6AF02501B2700067241B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6B4D821825003F5000B1DCF4 /* ArtSpace2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtSpace2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4D821B25003F5000B1DCF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B4D821D25003F5000B1DCF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				6B4D822425003F5200B1DCF4 /* Assets.xcassets */,
 				6B4D822625003F5200B1DCF4 /* LaunchScreen.storyboard */,
 				6B4D822925003F5200B1DCF4 /* Info.plist */,
+				6B2D6AF02501B2700067241B /* GoogleService-Info.plist */,
 			);
 			path = ArtSpace2.0;
 			sourceTree = "<group>";
@@ -116,6 +119,7 @@
 				6B4D821425003F5000B1DCF4 /* Sources */,
 				6B4D821525003F5000B1DCF4 /* Frameworks */,
 				6B4D821625003F5000B1DCF4 /* Resources */,
+				810B795DD92598533F3EACB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,6 +170,7 @@
 			files = (
 				6B4D822825003F5200B1DCF4 /* LaunchScreen.storyboard in Resources */,
 				6B4D822525003F5200B1DCF4 /* Assets.xcassets in Resources */,
+				6B2D6AF12501B2700067241B /* GoogleService-Info.plist in Resources */,
 				6B4D822325003F5000B1DCF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +198,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810B795DD92598533F3EACB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtSpace2.0/Pods-ArtSpace2.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtSpace2.0/Pods-ArtSpace2.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtSpace2.0/Pods-ArtSpace2.0-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

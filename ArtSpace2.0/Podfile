@@ -6,5 +6,6 @@ target 'ArtSpace2.0' do
   use_frameworks!
 
   # Pods for ArtSpace2.0
+    pod 'Firebase/Analytics'
 
 end
